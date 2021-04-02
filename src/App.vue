@@ -1,16 +1,16 @@
 <template>
   <div id="app" class="container">
-    <HelloWorld/>
+    <survey-holder/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import SurveyHolder from './components/SurveyHolder'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    SurveyHolder
   }
 }
 </script>
